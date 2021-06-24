@@ -16,17 +16,17 @@ column1 = dbc.Col(
         dcc.Markdown(
             """
         
-            ## Your Value Proposition
+            ## Looking for New Music?
 
-            Emphasize how the app will benefit users. Don't emphasize the underlying technology.
+            Look no further than SpotaSong!
 
-            ✅ RUN is a running app that adapts to your fitness levels and designs personalized workouts to help you improve your running.
+            SpotaSong is a simple to use, web based app that will give you accurate music recommendations based on your listening patterns.
 
-            ❌ RUN is the only intelligent running app that uses sophisticated deep neural net machine learning to make your run smarter because we believe in ML driven workouts.
+            Just select a song to begin!
 
             """
         ),
-        dcc.Link(dbc.Button('Your Call To Action', color='primary'), href='/predictions')
+        dcc.Link(dbc.Button('Select a Song!', color='success'), href='/predictions')
     ],
     md=4,
 )
