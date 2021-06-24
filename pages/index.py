@@ -37,7 +37,7 @@ fig = px.scatter(gapminder.query("year==2007"), x="gdpPercap", y="lifeExp", size
 
 column2 = dbc.Col(
     [
-        html.Img(src='assets/spotify.png', style={'width': '100%'})
+        html.Img(src='assets/spotify.png')
     ]
 )
 
