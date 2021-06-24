@@ -15,9 +15,9 @@ column1 = dbc.Col(
         dcc.Markdown(
             """
         
-            ## Predictions
+            ## Recommendation:
 
-            Your instructions: How to use your app to get new predictions.
+            Select a song and then browse the recommendations!
 
             """
         ),

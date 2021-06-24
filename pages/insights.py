@@ -15,7 +15,11 @@ column1 = dbc.Col(
         dcc.Markdown(
             """
         
-            ## Insights
+            ## About Us:
+
+            We are a group of students enrolled in Lambda School's data science course. Lambda School is an all remote, rigorous, computer science bootcamp
+            that encourages peer to peer collaboration. Through this collaboration we created this app for an end of unit Build Week. Visit the github link
+            below for more information.
 
 
             """
